@@ -1,0 +1,14 @@
+/usr/local/lib/libfreenect2.0.2.0.dylib
+/usr/local/lib/libfreenect2.0.2.dylib
+/usr/local/lib/libfreenect2.dylib
+/usr/local/include/libfreenect2/.DS_Store
+/usr/local/include/libfreenect2/frame_listener.hpp
+/usr/local/include/libfreenect2/frame_listener_impl.h
+/usr/local/include/libfreenect2/libfreenect2.hpp
+/usr/local/include/libfreenect2/logger.h
+/usr/local/include/libfreenect2/packet_pipeline.h
+/usr/local/include/libfreenect2/registration.h
+/usr/local/include/libfreenect2/config.h
+/usr/local/include/libfreenect2/export.h
+/usr/local/lib/cmake/freenect2/freenect2Config.cmake
+/usr/local/lib/pkgconfig/freenect2.pc

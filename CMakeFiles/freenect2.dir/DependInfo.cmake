@@ -1,0 +1,61 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/allocator.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/allocator.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/command_transaction.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/command_transaction.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/cpu_depth_packet_processor.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/cpu_depth_packet_processor.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/depth_packet_processor.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/depth_packet_processor.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/depth_packet_stream_parser.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/depth_packet_stream_parser.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/event_loop.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/event_loop.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/flextGL.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/flextGL.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/frame_listener_impl.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/frame_listener_impl.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/libfreenect2.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/libfreenect2.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/logging.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/logging.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/opencl_depth_packet_processor.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/opencl_depth_packet_processor.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/opengl_depth_packet_processor.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/opengl_depth_packet_processor.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/packet_pipeline.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/packet_pipeline.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/registration.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/registration.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/resource.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/resource.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/rgb_packet_processor.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/rgb_packet_processor.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/rgb_packet_stream_parser.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/rgb_packet_stream_parser.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/tinythread/tinythread.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/tinythread/tinythread.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/transfer_pool.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/transfer_pool.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/turbo_jpeg_rgb_packet_processor.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/turbo_jpeg_rgb_packet_processor.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/usb_control.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/usb_control.cpp.o"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/src/vt_rgb_packet_processor.cpp" "/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/freenect2.dir/src/vt_rgb_packet_processor.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "Clang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "RESOURCES_INC"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
+  "../include/internal"
+  "."
+  "../src/tinythread"
+  "/usr/local/Cellar/libusb/1.0.20/include/libusb-1.0"
+  "/usr/local/opt/jpeg-turbo/include"
+  "/opt/local/include"
+  "/System/Library/Frameworks/OpenCL.framework"
+  )
+
+# Pairs of files generated by the same build rule.
+set(CMAKE_MULTIPLE_OUTPUT_PAIRS
+  "/Users/richertecmacpro/desktop/libfreenect2-master/build/lib/libfreenect2.0.2.dylib" "/Users/richertecmacpro/desktop/libfreenect2-master/build/lib/libfreenect2.0.2.0.dylib"
+  "/Users/richertecmacpro/desktop/libfreenect2-master/build/lib/libfreenect2.dylib" "/Users/richertecmacpro/desktop/libfreenect2-master/build/lib/libfreenect2.0.2.0.dylib"
+  )
+
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,116 @@
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b20c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3b20c.dir/build.make CMakeFiles/cmTC_3b20c.dir/build
+Building C object CMakeFiles/cmTC_3b20c.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_3b20c.dir/CheckSymbolExists.c.o   -c /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3b20c.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_3b20c/fast] Error 2
+
+File /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26420/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_26420.dir/build.make CMakeFiles/cmTC_26420.dir/build
+Building C object CMakeFiles/cmTC_26420.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_26420.dir/CheckSymbolExists.c.o   -c /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_26420.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_26420/fast] Error 2
+
+File /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8d34/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d8d34.dir/build.make CMakeFiles/cmTC_d8d34.dir/build
+Building C object CMakeFiles/cmTC_d8d34.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_d8d34.dir/CheckSymbolExists.c.o   -c /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d8d34.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d8d34/fast] Error 2
+
+File /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c14d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6c14d.dir/build.make CMakeFiles/cmTC_6c14d.dir/build
+Building C object CMakeFiles/cmTC_6c14d.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_6c14d.dir/CheckSymbolExists.c.o   -c /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6c14d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_6c14d/fast] Error 2
+
+File /Users/richertecmacpro/desktop/libfreenect2-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
